@@ -25,7 +25,7 @@ template2 = PromptTemplate(
     input_variables=["text"]
 )
 # 
-# prompt1 = template1.format({"topic" : "Black hole"})
+# prompt1 = template1.format({"topic" : "Black hole"}) ###########=========== we can use "invoke or format "
 # result1 = model.invoke(prompt1)
 
 # prompt2 = template2.invoke({"text" : result1.content})

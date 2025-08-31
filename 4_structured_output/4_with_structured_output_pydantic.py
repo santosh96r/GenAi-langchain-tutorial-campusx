@@ -56,5 +56,5 @@ Review by Nitish Singh""")
 # print(result["sentimate"])
 
 # print(result)
-print(dict(result)['key_themes'])
+# print(dict(result))
 

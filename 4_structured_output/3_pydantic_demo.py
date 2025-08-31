@@ -15,11 +15,11 @@ from typing import Optional, Annotated
 
 # print(s1)
 
-class Student(BaseModel):
-    name : Annotated[str, "name of student"]
-    age : int 
+# class Student(BaseModel):
+#     name : Annotated[str, "name of student"]
+#     age : int 
 
 
-stu = {"name": "skr", "age" : 22}
-s1 = Student(**stu)
-print(s1.name)
+# stu = {"name": "skr", "age" : 22}
+# s1 = Student(**stu)
+# print(s1.name)
